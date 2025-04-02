@@ -65,7 +65,7 @@
       top: 4.5em;
       left: 3%;
     }
-    
+
     #logo {
       position: absolute;
       top: 0;
@@ -91,17 +91,30 @@
       font-size: 0.75em;
       display: inline;
     }
-    
+
     #description p {
-      padding: 5%;
+      padding: 3% 5%;
+      padding-bottom: 0;
     }
-    
+
     #images {
       display: flex;
       flex-wrap: wrap;
-      padding: 5;
+      padding: 0 3%;
     }
-    
+
+    #column {
+      flex: 25%;
+      max-width: 23%;
+      padding: 1%;
+    }
+
+    #column img {
+      margin-top: 7%;
+      vertical-align: middle;
+      width: 100%;
+    }
+
 
     /* Responsive Design Additions */
     @media screen and (max-width: 600px) {
@@ -132,11 +145,11 @@
       <h3>Ontario Camp</h3>
       <h3 style="top:5.5em">May 25-26, 2024</h3>
     </div>
-    
+
     <div id="description">
       <p>Founded in 2016, One Team Movement is a not-for-profit organization that supports the growth and development of synchronized skating worldwide, toward Olympic inclusion. These photos feature their annual Ontario synchro camp that brings together skaters of all ages for a weekend of workshops, lessons, and bonding over their love for the sport.</p>
     </div>
-    
+
     <div id="images">
       <div id="column">
         <img src="otm1.jpg" alt="one girl leans against another while figure skating">
