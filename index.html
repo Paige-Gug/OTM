@@ -12,22 +12,10 @@
   </head>
 
   <style>
-    .just-another-hand-regular {
-      font-family: "Just Another Hand", cursive;
-      font-weight: 400;
-      font-style: normal;
-    }
-
-    .josefin-sans-<uniquifier> {
-      font-family: "Josefin Sans", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: <weight>;
-      font-style: normal;
-    }
-
     body {
       font-family: "Josefin Sans", sans-serif;
       font-size: 24px;
+      margin: 0;
     }
 
     #nav {
@@ -72,21 +60,25 @@
     h3 {
       color: white;
       font-size: 1em;
+      font-weight: 500;
       position: absolute;
       top: 4.5em;
       left: 3%;
     }
-
-    p {
+    
+    #logo {
       position: absolute;
       top: 0;
-      left: 7%;
+      margin: 0.75em 0em;
+      color: #EED2FF;
+      padding-left: 0.75em;
     }
 
     #landing {
       width: 100%;
       position: relative;
       background-image: url("otm.jpg");
+      background-color: black;
       aspect-ratio: 3/2;
       background-size: cover;
     }
@@ -97,14 +89,13 @@
       text-align: center;
       color: black;
       font-size: 0.75em;
+      display: inline;
     }
-
-    #logo {
-      margin: 0.75em 0em;
-      color: #EED2FF;
-      padding: 0;
-      left: 3%;
+    
+    #description p {
+      padding: 5%;
     }
+    
 
     /* Responsive Design Additions */
     @media screen and (max-width: 600px) {
@@ -135,8 +126,15 @@
       <h3>Ontario Camp</h3>
       <h3 style="top:5.5em">May 25-26, 2024</h3>
     </div>
+    
     <div id="description">
       <p>Founded in 2016, One Team Movement is a not-for-profit organization that supports the growth and development of synchronized skating worldwide, toward Olympic inclusion. These photos feature their annual Ontario synchro camp that brings together skaters of all ages for a weekend of workshops, lessons, and bonding over their love for the sport.</p>
+    </div>
+    
+    <div id="images">
+      <div id="column">
+        <img src="filename.jpg" alt="description of image">
+      </div>
     </div>
   </body>
 </html>
