@@ -12,7 +12,7 @@
   </head>
 
   <style>
-      .just-another-hand-regular {
+    .just-another-hand-regular {
       font-family: "Just Another Hand", cursive;
       font-weight: 400;
       font-style: normal;
@@ -24,7 +24,7 @@
       font-weight: <weight>;
       font-style: normal;
     }
-    
+
     body {
       font-family: "Josefin Sans", sans-serif;
       font-size: 24px;
@@ -38,6 +38,7 @@
       top: 0;
       position: fixed;
       z-index: 999;
+      font-family: "Just Another Hand", cursive;
     }
 
     ul {
@@ -59,14 +60,30 @@
     a:hover {
       color: #EED2FF;
     }
-    
+
     h1 {
       color: white;
-      font-size: 3em;
+      font-size: 2em;
+      position: absolute;
+      top: 1em;
+      left: 3%;
+    }
+
+    h3 {
+      color: white;
+      font-size: 1em;
+      position: absolute;
+      top: 4.5em;
+      left: 3%;
+    }
+
+    p {
+      position: absolute;
+      top: 0;
+      left: 7%;
     }
 
     #landing {
-      padding-bottom: 0.5em;
       width: 100%;
       position: relative;
       background-image: url("otm.jpg");
@@ -74,15 +91,17 @@
       background-size: cover;
     }
 
-    p {
-      color: #EED2FF;
-      position: absolute;
-      top: 0;
-      left: 7%;
+    #description {
+      width: 100%;
+      position: relative;
+      text-align: center;
+      color: black;
+      font-size: 0.75em;
     }
 
     #logo {
       margin: 0.75em 0em;
+      color: #EED2FF;
       padding: 0;
       left: 3%;
     }
@@ -113,6 +132,11 @@
 
     <div id="landing">
       <h1>One Team Movement</h1>
+      <h3>Ontario Camp</h3>
+      <h3 style="top:5.5em">May 25-26, 2024</h3>
+    </div>
+    <div id="description">
+      <p>Founded in 2016, One Team Movement is a not-for-profit organization that supports the growth and development of synchronized skating worldwide, toward Olympic inclusion. These photos feature their annual Ontario synchro camp that brings together skaters of all ages for a weekend of workshops, lessons, and bonding over their love for the sport.</p>
     </div>
   </body>
 </html>
